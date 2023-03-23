@@ -9,4 +9,5 @@ e.g.: python ppmFixer pGlycoDB-GP-FDR-Pro-Quant-Site.txt output.txt
 Required packages:
 - numpy
 - pandas
+
 For more information please see associated publication:

@@ -5,7 +5,7 @@ glycan compositions (not linkages).
 
 Usage: python ppmFixer <input_file> <output_file>
 
-e.g.: python ppmFixer pGlycoDB-GP-FDR-Pro-Quant-Site.txt output.txt
+Example: python ppmFixer pGlycoDB-GP-FDR-Pro-Quant-Site.txt output.txt
 
 Required packages:
 - numpy

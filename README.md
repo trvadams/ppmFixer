@@ -21,7 +21,7 @@ Required packages:
 To install the required packages, I recommend the use of miniconda:
 https://docs.conda.io/projects/miniconda/en/latest/
 
-Once miniconda is installed and activated, use the following commands to install the needed packages:
+Once miniconda is installed and activated, use the following commands to install the required packages:
 ```
 conda install numpy
 conda install pandas

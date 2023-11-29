@@ -125,7 +125,7 @@ df[['numHexose', 'numHexNAc', 'numSialic', 'numFucose']] = \
 for x in numSugars:
     df[x] = pd.to_numeric(df[x])
 
-# Calculate new mass error where native pGlyco correction took place
+# Calculate new mass error where native pGlyco correction took place and save value to temporary column.
 df['ppmFixPrecursorMZ_temp'] = np.where(df['CorrectedGlycan(H,N,A,F)'].notna(), \
     (df['PeptideMH'] - protonMass + \
         (df['numHexose'] * hexoseMass) + \
@@ -386,6 +386,7 @@ def ppmFix_N4HxFxAx_N2Hp7():
     df.drop(columns='ppmN4Hx+7Flag',
             inplace=True)       
 
+# Correct NxHxAx -> N(x-4)H(x+5)
 def ppmFix_NxHx_Nxm4Hxp5():
     # Flag GPSMs that fail the ppmCheck and have composition of N3H6.
     df['ppmN6HxFlag'] = np.where(

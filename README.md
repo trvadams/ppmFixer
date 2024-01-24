@@ -27,3 +27,4 @@ conda install numpy
 conda install pandas
 ```
 For more information please see associated publication:
+https://doi.org/10.1093/glycob/cwae006

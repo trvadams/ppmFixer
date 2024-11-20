@@ -1,0 +1,47 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: ppmFixer
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Trevor
+    family-names: Adams
+    email: trevadams94@gmail.com
+    affiliation: University of Georgia
+    orcid: 'https://orcid.org/0000-0002-6661-1694'
+  - given-names: Peng
+    family-names: Zhao
+    affiliation: University of Georgia
+  - given-names: Rui
+    family-names: Kong
+    affiliation: Emory University
+  - given-names: Lance
+    family-names: Wells
+    affiliation: University of Georgia
+    email: lwells@ccrc.uga.edu
+identifiers:
+  - type: doi
+    value: 10.1093/glycob/cwae006
+    description: Original publication
+repository-code: 'https://github.com/trvadams/ppmFixer'
+abstract: >-
+  Modern glycoproteomics experiments require the use of
+  search engines due to the generation of countless spectra.
+  While these tools are valuable, manual validation of
+  search engine results is often required for detailed
+  analysis of glycopeptides as false-discovery rates are
+  often not reliable for glycopeptide data. Near-isobaric
+  mismatches are a common source of misidentifications for
+  the popular glycopeptide-focused search engine pGlyco3.0,
+  and in this technical note we share a strategy and script
+  that improves the accuracy of the search utilizing two
+  manually validated datasets of the glycoproteins CD16a and
+  HIV-1 Env as proof-of-principle.
+keywords:
+  - glycoproteomics
+  - mass spectrometry
+license: MIT
